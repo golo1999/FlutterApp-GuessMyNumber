@@ -8,7 +8,7 @@ import 'package:fluttertoast/fluttertoast.dart';
 import './app_data.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     home: GuessMyNumber(),
     debugShowCheckedModeBanner: false,
   ));
