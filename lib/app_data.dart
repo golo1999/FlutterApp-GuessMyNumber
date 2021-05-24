@@ -28,6 +28,7 @@ class AppData {
 
   // method for removing 0 if it's the first character and the input has more than one character
   static String handleZeroFirstCharacter(String input) {
+
     return input.substring(1);
   }
 
